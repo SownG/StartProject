@@ -1,7 +1,7 @@
 {
-  "name": "dathena99",
+  "name": "StartPG",
   "version": "1.0.0",
-  "description": "dathena",
+  "description": "StartPG",
   "scripts": {
     "clean": "rimraf dist",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
