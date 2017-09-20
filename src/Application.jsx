@@ -5,7 +5,6 @@ import AppBar from 'material-ui/AppBar';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import DrawingElement from './components/layout';
 import RightContainer from './components/rightContainer';
-import TextEditor from './components/textEditor';
 
 require('../assets/style/css/styles.less')
 export default class Application extends React.Component {

@@ -1,12 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import CVTwoThird from '../cvTwoThird/index';
 import { withGoogleMap, GoogleMap, Marker, GoogleMapLoader, InfoWindow } from "react-google-maps";
 import SearchBox from 'react-google-maps/lib/places/SearchBox'
-require('./styles.less');
 import canUseDOM from "can-use-dom";
 import raf from "raf";
 import LocationPopup from "../popup/locationPopup";
+require('./styles.less');
 
 const geolocation = (
     canUseDOM && navigator.geolocation ?
